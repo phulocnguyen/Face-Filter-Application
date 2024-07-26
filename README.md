@@ -1,7 +1,6 @@
 # Facial Video Filter: 
 <div style="font-size: small;">
 
-![Image](./result_image.jpeg)
 
 ## Table of Contents
 * [Facial Video Filter](#facial-video-filter)
@@ -34,7 +33,7 @@
 ## 2. Installation
 Clone Code
 ```sh
-$ git clone https://github.com/LongSei/Face-Filter-Application.git
+$ git clone [https://github.com/LongSei/Face-Filter-Application.git](https://github.com/phulocnguyen/Face-Filter-Application.git)
 $ cd src
 ```
 Add test video path in "./config/filter.yaml"
@@ -44,8 +43,8 @@ test:
   filter_name: dog
 ```
 Run Code
-``` sh
-$ python3.11 main.py
+```
+$ python main.py
 ```
 
 ## 3. Step by step
