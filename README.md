@@ -1,10 +1,10 @@
 # Face Filter Application
 
-## Overview
+## 1.Overview
 
 Face Filter Application is a real-time face filter application that leverages OpenCV, MediaPipe, and Hydra Lightning Framework to apply augmented reality (AR) effects to human faces. The application enables users to overlay virtual filters, masks, and effects on their faces in real time using a webcam.
 
-## Features
+## 2.Features
 
 **Real-time Face Detection**: Uses MediaPipe Face Mesh for precise facial landmark detection.
 
@@ -16,7 +16,7 @@ Face Filter Application is a real-time face filter application that leverages Op
 
 **Easy Integration**: Open-source and customizable for various applications.
 
-##Tech Stack
+## 3.Tech Stack
 
 **OpenCV**: For image processing and real-time video streaming.
 
@@ -26,7 +26,7 @@ Face Filter Application is a real-time face filter application that leverages Op
 
 **Lightning**: For scalable and efficient deep learning model deployment (if applicable).
 
-## Installation
+## 4.Installation
 
 ### Prerequisites
 
@@ -48,7 +48,7 @@ Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
-## Usage
+## 5.Usage
 
 Run the application with:
 ```bash
