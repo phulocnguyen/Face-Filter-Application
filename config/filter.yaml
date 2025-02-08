@@ -25,8 +25,8 @@ facial_detection_configs:
 filter_configs: 
   filter_path:
     pig:
-      - path: D:\Workspace\Face-Filter-Application\\filters\dog-nose.png
-        anno_path: D:\Workspace\Face-Filter-Application\\filters\pignose_annotations.csv
+      - path: /Users/phulocnguyen/Documents/Workspace/Face-Filter-Application/filters/dog-nose.png
+        anno_path: /Users/phulocnguyen/Documents/Workspace/Face-Filter-Application/filters/pignose_annotations.csv
         morph: False
         animated: False
         has_alpha: True
@@ -34,7 +34,7 @@ filter_configs:
 
 face_filter_application: 
   visualize_face_points: False
-  realtime: False
+  realtime: True
   video_width: 1500
   video_height: 1500
   video_fps: 30
@@ -47,5 +47,5 @@ face_filter_application:
     sigma: 100
 
 test: 
-  video_path: D:\Workspace\Face-Filter-Application\test.mp4
+  video_path: /Users/phulocnguyen/Documents/Workspace/Face-Filter-Application/test.mp4
   filter_name: pig

@@ -1,0 +1,4 @@
+outputs/
+src/outputs/
+*.pyc
+.vscode
